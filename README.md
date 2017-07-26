@@ -2,7 +2,8 @@
 
 ### 简介: 
    本项目是用来分析手机卡顿时长的，帧绘制耗时大于100ms视作卡顿. 由MIUI团队(www.miui.com) 发起并贡献第一批代码，遵循NOTICE文件所描述的开源协议，
-今后为MiCode社区(www.micode.net) 拥有，并由社区发布和维护。
+今后为MiCode社区(www.micode.net) 拥有，并由社区发布和维护.<br>
+   其中,graphic_dumps是可执行文件,用于抓取帧绘制信息,源码在项目目录下的native文件夹中.
 
 ### 用法:
     (只支持linux 终端中执行)
@@ -23,6 +24,11 @@
 #### 4.查看结果:
      第(3)步后,在graphic文件夹中生成文本文件:caton_time
 
+<br>
 [English]
-for static jank frame from graphicstatistic
 
+### Introduction:
+  This is open source edition for static janky frame from graphicstatistic, it's first initiated and sponsored by MIUI team (www.miui.com).It's opened under license described by NOTICE file. It's owned by the MiCode community (www.micode.net). In future,
+the MiCode community will release and maintain this project.<br>
+
+  The graphic_dumps is a executable file,which is used to dump graphicsstats, the source code in the native directory of the project directory.
