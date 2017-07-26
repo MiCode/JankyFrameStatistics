@@ -23,3 +23,5 @@
        第(3)步后,在graphic文件夹中生成文本文件:caton_time
 
 [English]
+for static jank frame from graphicstatistic
+
