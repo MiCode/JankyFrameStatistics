@@ -26,7 +26,6 @@ elif [ x"$2" == x"stop" ]; then
 	echo "Stop testing, collect data."
     kill_process graphic_dump
 	[ -d "graphic" ] && rm -rf graphic
-	mkdir graphic
 	adb -s $ANDROID_SERIAL pull /sdcard/graphic graphic
 	adb -s $ANDROID_SERIAL shell rm -rf /sdcard/graphic/*
 else

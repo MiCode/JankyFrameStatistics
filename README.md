@@ -6,22 +6,22 @@
 
 ### 用法:
     (只支持linux 终端中执行)
-#### 1 开始抓取数据:
-       执行 bash runDump.sh [参数1] start [参数2]
+#### 1.开始抓取数据:
+     执行 bash run_dump.sh [参数1] start [参数2]
        参数1: 手机 serial number(adb devices 获取)
        参数2: 抓取数据间隔(s)
-       示例: bash runDump.sh f13dacb5 start 1000
-#### 2 停止抓取数据:
-       执行 bash runDump.sh [参数1] stop
+     示例: bash run_dump.sh f13dacb5 start 1000
+#### 2.停止抓取数据:
+     执行 bash run_dump.sh [参数1] stop
        参数1: 手机 serial number(adb devices 获取)
-       示例: bash runDump.sh f13dacb5 stop
-#### 3 分析结果:
-       第(2)步后, 会在当前目录下生成graphic文件夹
-       执行 python start_analysis.py -d [参数]
+     示例: bash run_dump.sh f13dacb5 stop
+#### 3.分析结果:
+     第(2)步后, 会在当前目录下生成graphic文件夹
+     执行 python start_analysis.py -d [参数]
        参数: log文件路径
-       示例: python start_analysis.py -d graphic
-#### 4 查看结果:
-       第(3)步后,在graphic文件夹中生成文本文件:caton_time
+     示例: python start_analysis.py -d graphic
+#### 4.查看结果:
+     第(3)步后,在graphic文件夹中生成文本文件:caton_time
 
 [English]
 for static jank frame from graphicstatistic
