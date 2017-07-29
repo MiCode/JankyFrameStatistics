@@ -62,6 +62,10 @@ class GraphicStatics:
         """
         pkg_static = None
         print 'start parse:' + file_name
+        if not os.path.isfile(file_name):
+            print 'there is not the file:' + file_name
+            return
+
         with open(file_name) as graphic_file:
             for line in graphic_file.readlines():
                 if cmp(line[0:len(info.PACKAGE)], info.PACKAGE) == 0:
